@@ -24,7 +24,7 @@ let argv = require('yargs')
   .alias('h', 'help')
   .epilog('Copyright (c) 2022, Nick Jiang<congtao.jiang@outlook.com>').argv;
 
-log({ argv });
+// log({ argv });
 let { i: inXmlFile, o: outFile, tojson, compact, toyaml } = argv;
 
 if (!inXmlFile) {
